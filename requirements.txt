@@ -1,0 +1,4 @@
+rich
+pandas
+bit
+ipykernel

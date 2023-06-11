@@ -29,7 +29,7 @@ with con.status("[bold green]Working on tasks...") as status:
         key = Key()
 
         if i % 10 == 0:
-            status.update(f"{i:>15,} {key.address}")
+            status.update(f"{i:<10,} {key.address}")
             time.sleep(0.3)
 
         if key.address in addresses or key.segwit_address in addresses:
